@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container,.donation-box{
+    height: 100%;
+    width: 100%;
+    background-color: #f7efe7;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 60px;
+}
+.donation-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content{
+    /* margin-top: 10px;
+    
+    margin-right: 15px; */
+    display: flex;
+    margin-left: 35px;
+    height: 30%;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    margin-left: 9px;
+    height: 30%;
+    width: 50%;
+}
+
+.image-content{
+    margin-right: 5px;
+}
+
+.qutos{
+    display: flex;
+    background-color: rgb(190, 173, 194);
+    height: 30rem;
+}
+
+.para-qutos{
+    display: flex;
+}
+
+.image-quto-para{
+    margin-top: 2em;
+    margin-left: 2em;
+    height: 25rem;
+    border-radius: 2em;
+    
+}
+
+.qutos-text{
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px wheat;
+}
+.donation-button{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate-btn{
+    /* margin-left: 7em;
+    margin-right: 2em; */
+    height: 3rem;
+    width: 19rem;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-row{
+    margin-left: 17rem;
+    display: inline;
+}
+
+.col-md-4,.form-check, .submit-btn{
+    margin-left: 25rem;
+    margin-bottom: 2em;
+}
+
+.collapse{
+    margin-left: 35em;
+}
+
+.link-text{
+    display: flex;
+}
+
+.contact-jumbo{
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 2em;
+}
+
+.add-cont-container{
+    margin-left: 3em;
+    margin-right: 3em;
+    display: flex;
+}
+
+.add-cont-jumbo{
+    margin-left: 2em;
+}
+
+.about-container{
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.about-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(65, 62, 62);
+}
